@@ -102,5 +102,5 @@ void EPuckUserInterface::connectClicked()
 
 void EPuckUserInterface::quitClicked()
 {
-	close();
+    this->close();
 }

@@ -357,7 +357,7 @@
    <sender>quitButton</sender>
    <signal>clicked()</signal>
    <receiver>EPuckUserInterface</receiver>
-   <slot>quitButtonClicked()</slot>
+   <slot>quitClicked()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>213</x>
@@ -547,7 +547,7 @@
   </connection>
  </connections>
  <slots>
-  <slot>quitButtonClicked()</slot>
+  <slot>quitClicked()</slot>
   <slot>updateMotors(int)</slot>
   <slot>updateLeds(int)</slot>
   <slot>connectClicked()</slot>
